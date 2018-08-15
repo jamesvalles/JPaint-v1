@@ -25,8 +25,8 @@ public class MouseObserver extends JFrame implements IMouseAdapterObserver {
 
     public void run() {
 
-        MouseListener[] listeners = paintCanvas.getMouseListeners();
-        for (MouseListener mouseListener : listeners) {
+        MouseListener[] mouseListeners = paintCanvas.getMouseListeners();
+        for (MouseListener mouseListener : mouseListeners) {
             paintCanvas.removeMouseListener(mouseListener);
 
         }

@@ -10,9 +10,6 @@ import model.persistence.ApplicationState;
 import view.gui.*;
 import view.interfaces.IGuiWindow;
 import view.interfaces.IUiModule;
-
-import javax.swing.*;
-import javax.swing.border.LineBorder;
 import java.awt.*;
 
 public class Main {
